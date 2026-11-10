@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>역대 롤드컵 결승 MVP</title>
+    <style>
+        body { font-family: 'Malgun Gothic', sans-serif; background-color: #f4f4f9; padding: 20px; }
+        h1 { text-align: center; color: #333; }
+        table { width: 100%; max-width: 800px; margin: 0 auto; border-collapse: collapse; background: #fff; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: center; }
+        th { background-color: #1a1a1a; color: #fff; }
+        tr:nth-child(even) { background-color: #f9f9f9; }
+        tr:hover { background-color: #f1f1f1; }
+        .mvp-none { color: #999; font-style: italic; }
+    </style>
+</head>
+<body>
+
+    <h1>역대 롤드컵(LoL 월드 챔피언십) 결승 MVP</h1>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>연도 (대회)</th>
+                <th>우승팀</th>
+                <th>결승전 MVP</th>
+                <th>포지션</th>
+            </tr>
+        </thead>
+        <tbody id="mvp-table-body">
+            <!-- 자바스크립트로 데이터가 삽입됩니다 -->
+        </tbody>
+    </table>
+
+    <script>
+        const worldsMvpData = [
+            { year: 2011, season: "시즌 1", winner: "Fnatic", mvp: null, player_kr: null, position: null },
+            { year: 2012, season: "시즌 2", winner: "Taipei Assassins", mvp: null, player_kr: null, position: null },
+            { year: 2013, season: "시즌 3", winner: "SK Telecom T1", mvp: null, player_kr: null, position: null },
+            { year: 2014, season: "2014", winner: "Samsung Galaxy White", mvp: "Mata", player_kr: "조세형", position: "서포터" },
+            { year: 2015, season: "2015", winner: "SK Telecom T1", mvp: "MaRin", player_kr: "장경환", position: "탑" },
+            { year: 2016, season: "2016", winner: "SK Telecom T1", mvp: "Faker", player_kr: "이상혁", position: "미드" },
+            { year: 2017, season: "2017", winner: "Samsung Galaxy", mvp: "Ruler", player_kr: "박재혁", position: "원딜" },
+            { year: 2018, season: "2018", winner: "Invictus Gaming", mvp: "Ning", player_kr: "고전닝", position: "정글" },
+            { year: 2019, season: "2019", winner: "FunPlus Phoenix", mvp: "Tian", player_kr: "고티안위", position: "정글" },
+            { year: 2020, season: "2020", winner: "DAMWON Gaming", mvp: "Canyon", player_kr: "김건부", position: "정글" },
+            { year: 2021, season: "2021", winner: "Edward Gaming", mvp: "Scout", player_kr: "이예찬", position: "미드" },
+            { year: 2022, season: "2022", winner: "DRX", mvp: "Kingen", player_kr: "황성훈", position: "탑" },
+            { year: 2023, season: "2023", winner: "T1", mvp: "Zeus", player_kr: "최우제", position: "탑" },
+            { year: 2024, season: "2024", winner: "T1", mvp: "Faker", player_kr: "이상혁", position: "미드" },
+            { year: 2025, season: "2025", winner: "T1", mvp: "Gumayusi", player_kr: "이민형", position: "원딜" }
+        ];
+
+        const tbody = document.getElementById('mvp-table-body');
+        
+        worldsMvpData.forEach(data => {
+            const tr = document.createElement('tr');
+            
+            const mvpText = data.mvp ? `<strong>${data.mvp}</strong> (${data.player_kr})` : `<span class="mvp-none">시상 없음</span>`;
+            const positionText = data.position ? data.position : '-';
+
+            tr.innerHTML = `
+                <td>${data.year} (${data.season})</td>
+                <td>${data.winner}</td>
+                <td>${mvpText}</td>
+                <td>${positionText}</td>
+            `;
+            tbody.appendChild(tr);
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,183 @@
+// data.js (또는 worldsData.js)
+export const worldsData = [
+  {
+    year: 2011,
+    season: "시즌 1",
+    winner: "Fnatic",
+    runnerUp: "against All authority",
+    score: "2:1",
+    semifinals: ["Team SoloMid", "Epik Gamer"],
+    quarterfinals: ["Counter Logic Gaming", "gamed!de"], // 시즌 1은 6강 플레이오프 체제로 진행됨
+    mvp: null,
+    mvpKr: null,
+    mvpPosition: null
+  },
+  {
+    year: 2012,
+    season: "시즌 2",
+    winner: "Taipei Assassins",
+    runnerUp: "Azubu Frost",
+    score: "3:1",
+    semifinals: ["Moscow Five", "CLG Europe"],
+    quarterfinals: ["NaJin Sword", "Team SoloMid", "Invictus Gaming", "World Elite"],
+    mvp: null,
+    mvpKr: null,
+    mvpPosition: null
+  },
+  {
+    year: 2013,
+    season: "시즌 3",
+    winner: "SK Telecom T1",
+    runnerUp: "Royal Club",
+    score: "3:0",
+    semifinals: ["Fnatic", "NaJin Black Sword"],
+    quarterfinals: ["Cloud9", "Gamania Bears", "OMG", "Gambit Gaming"],
+    mvp: null,
+    mvpKr: null,
+    mvpPosition: null
+  },
+  {
+    year: 2014,
+    season: "2014",
+    winner: "Samsung Galaxy White",
+    runnerUp: "Star Horn Royal Club",
+    score: "3:1",
+    semifinals: ["Samsung Galaxy Blue", "OMG"],
+    quarterfinals: ["Team SoloMid", "Edward Gaming", "NaJin White Shield", "Cloud9"],
+    mvp: "Mata",
+    mvpKr: "조세형",
+    mvpPosition: "서포터"
+  },
+  {
+    year: 2015,
+    season: "2015",
+    winner: "SK Telecom T1",
+    runnerUp: "KOO Tigers",
+    score: "3:1",
+    semifinals: ["Fnatic", "Origen"],
+    quarterfinals: ["ahq e-Sports Club", "Edward Gaming", "Flash Wolves", "KT Rolster"],
+    mvp: "MaRin",
+    mvpKr: "장경환",
+    mvpPosition: "탑"
+  },
+  {
+    year: 2016,
+    season: "2016",
+    winner: "SK Telecom T1",
+    runnerUp: "Samsung Galaxy",
+    score: "3:2",
+    semifinals: ["ROX Tigers", "H2K-Gaming"],
+    quarterfinals: ["Royal Never Give Up", "Edward Gaming", "Cloud9", "Albus NoX Luna"],
+    mvp: "Faker",
+    mvpKr: "이상혁",
+    mvpPosition: "미드"
+  },
+  {
+    year: 2017,
+    season: "2017",
+    winner: "Samsung Galaxy",
+    runnerUp: "SK Telecom T1",
+    score: "3:0",
+    semifinals: ["Royal Never Give Up", "Team WE"],
+    quarterfinals: ["Longzhu Gaming", "Fnatic", "Misfits Gaming", "Cloud9"],
+    mvp: "Ruler",
+    mvpKr: "박재혁",
+    mvpPosition: "원딜"
+  },
+  {
+    year: 2018,
+    season: "2018",
+    winner: "Invictus Gaming",
+    runnerUp: "Fnatic",
+    score: "3:0",
+    semifinals: ["G2 Esports", "Cloud9"],
+    quarterfinals: ["KT Rolster", "Royal Never Give Up", "Afreeca Freecs", "Edward Gaming"],
+    mvp: "Ning",
+    mvpKr: "고전닝",
+    mvpPosition: "정글"
+  },
+  {
+    year: 2019,
+    season: "2019",
+    winner: "FunPlus Phoenix",
+    runnerUp: "G2 Esports",
+    score: "3:0",
+    semifinals: ["Invictus Gaming", "SK Telecom T1"],
+    quarterfinals: ["Fnatic", "Griffin", "Splyce", "DAMWON Gaming"],
+    mvp: "Tian",
+    mvpKr: "고티안위",
+    mvpPosition: "정글"
+  },
+  {
+    year: 2020,
+    season: "2020",
+    winner: "DAMWON Gaming",
+    runnerUp: "Suning",
+    score: "3:1",
+    semifinals: ["Top Esports", "G2 Esports"],
+    quarterfinals: ["DRX", "JD Gaming", "Fnatic", "Gen.G"],
+    mvp: "Canyon",
+    mvpKr: "김건부",
+    mvpPosition: "정글"
+  },
+  {
+    year: 2021,
+    season: "2021",
+    winner: "Edward Gaming",
+    runnerUp: "DWG KIA",
+    score: "3:2",
+    semifinals: ["T1", "Gen.G"],
+    quarterfinals: ["Royal Never Give Up", "Hanwha Life Esports", "MAD Lions", "Cloud9"],
+    mvp: "Scout",
+    mvpKr: "이예찬",
+    mvpPosition: "미드"
+  },
+  {
+    year: 2022,
+    season: "2022",
+    winner: "DRX",
+    runnerUp: "T1",
+    score: "3:2",
+    semifinals: ["JD Gaming", "Gen.G"],
+    quarterfinals: ["Edward Gaming", "Royal Never Give Up", "DWG KIA", "Rogue"],
+    mvp: "Kingen",
+    mvpKr: "황성훈",
+    mvpPosition: "탑"
+  },
+  {
+    year: 2023,
+    season: "2023",
+    winner: "T1",
+    runnerUp: "Weibo Gaming",
+    score: "3:0",
+    semifinals: ["JD Gaming", "Bilibili Gaming"],
+    quarterfinals: ["LNG Esports", "NRG", "KT Rolster", "Gen.G"],
+    mvp: "Zeus",
+    mvpKr: "최우제",
+    mvpPosition: "탑"
+  },
+  {
+    year: 2024,
+    season: "2024",
+    winner: "T1",
+    runnerUp: "Bilibili Gaming",
+    score: "3:2",
+    semifinals: ["Weibo Gaming", "Gen.G"],
+    quarterfinals: ["LNG Esports", "Hanwha Life Esports", "Top Esports", "FlyQuest"],
+    mvp: "Faker",
+    mvpKr: "이상혁",
+    mvpPosition: "미드"
+  },
+  {
+    year: 2025,
+    season: "2025",
+    winner: "T1",
+    runnerUp: "KT Rolster",
+    score: "3:2",
+    semifinals: ["Gen.G", "Top Esports"],
+    quarterfinals: ["Hanwha Life Esports", "Anyone's Legend", "CTBC Flying Oyster", "G2 Esports"],
+    mvp: "Gumayusi",
+    mvpKr: "이민형",
+    mvpPosition: "원딜"
+  }
+];

@@ -1,0 +1,17 @@
+[
+  { "year": 2011, "season": "시즌 1", "winner": "Fnatic", "mvp": null, "player_kr": null, "position": null },
+  { "year": 2012, "season": "시즌 2", "winner": "Taipei Assassins", "mvp": null, "player_kr": null, "position": null },
+  { "year": 2013, "season": "시즌 3", "winner": "SK Telecom T1", "mvp": null, "player_kr": null, "position": null },
+  { "year": 2014, "season": "2014", "winner": "Samsung Galaxy White", "mvp": "Mata", "player_kr": "조세형", "position": "서포터" },
+  { "year": 2015, "season": "2015", "winner": "SK Telecom T1", "mvp": "MaRin", "player_kr": "장경환", "position": "탑" },
+  { "year": 2016, "season": "2016", "winner": "SK Telecom T1", "mvp": "Faker", "player_kr": "이상혁", "position": "미드" },
+  { "year": 2017, "season": "2017", "winner": "Samsung Galaxy", "mvp": "Ruler", "player_kr": "박재혁", "position": "원딜" },
+  { "year": 2018, "season": "2018", "winner": "Invictus Gaming", "mvp": "Ning", "player_kr": "고전닝", "position": "정글" },
+  { "year": 2019, "season": "2019", "winner": "FunPlus Phoenix", "mvp": "Tian", "player_kr": "고티안위", "position": "정글" },
+  { "year": 2020, "season": "2020", "winner": "DAMWON Gaming", "mvp": "Canyon", "player_kr": "김건부", "position": "정글" },
+  { "year": 2021, "season": "2021", "winner": "Edward Gaming", "mvp": "Scout", "player_kr": "이예찬", "position": "미드" },
+  { "year": 2022, "season": "2022", "winner": "DRX", "mvp": "Kingen", "player_kr": "황성훈", "position": "탑" },
+  { "year": 2023, "season": "2023", "winner": "T1", "mvp": "Zeus", "player_kr": "최우제", "position": "탑" },
+  { "year": 2024, "season": "2024", "winner": "T1", "mvp": "Faker", "player_kr": "이상혁", "position": "미드" },
+  { "year": 2025, "season": "2025", "winner": "T1", "mvp": "Gumayusi", "player_kr": "이민형", "position": "원딜" }
+]
