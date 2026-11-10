@@ -1,0 +1,1 @@
+# shingu.2025905008.vscode
